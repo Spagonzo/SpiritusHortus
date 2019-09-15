@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:text="In life we must feed, water, and cultivate our friendships. Enter or Search for the number of someone you care about."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/OpeningText"
+		android:textAlignment="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/TxBxPhoneNumberText"
+		android:text="Enter Phone Number"
+		android:textAlignment="center" />
+	<TextView
+		android:text="OR"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/TextOR"
+		android:textAlignment="center" />
+	<Button
+		android:text="Search for Contact(s)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/BttnSearchContact" />
+</LinearLayout>
